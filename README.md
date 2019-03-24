@@ -5,7 +5,7 @@ A Bash script to control AMD GPUs on GNU+Linux
 
 **NOTE: Feel free to rename the script -- I didn't, because I already set up several aliases and a ``cron`` job for it.**
 
-*NOTE: This script can ONLY be run as the Superuser -- regular ``sudo`` from any other user does not work, since it modifies system control files*
+*NOTE: This script can ONLY be run as the Superuser or a ``sudo`` user, since it modifies protected system control files*
 
 This script should work for any single-card AMD GPU builds (has not been tested with multi-card/Crossfire).
 
